@@ -1,0 +1,139 @@
+
+         @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+       
+
+
+         .urdu_letters {
+             direction: rtl;
+         }
+         #urdu {
+            font-family: "Urdu Nastaliq Unicode";
+                 }
+
+         ul {
+             list-style: none;
+         }
+
+         ul.browsebyletter {
+             display: flex;
+             flex-wrap: wrap;
+             padding: 10px;
+         }
+
+         .browsebyletter a {
+             margin: 0px 3px;
+             border: 1px solid white;
+             padding: 0px 15px;
+             border-radius: 5px;
+             font-size: 15px;
+         }
+
+         .browsebyletter a:hover {
+             background-color: white;
+             color: black;
+             transition: 1s;
+             font-weight: 900;
+         }
+
+         header {
+             margin: 2em 0 1em;
+             font-size: 12.2px;
+             text-align: center;
+             position: relative;
+         }
+
+
+
+         #section1 {
+             background: url(http://img.timeinc.net/time/photoessays/2008/trees/franklin_trees_01.jpg);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-position: center;
+             /* height: 100vh; */
+             /* 100% of viewport height */
+             margin: 0 auto;
+             position: relative;
+
+         }
+
+         .mb_parallax_container {
+             height: 50vh;
+             width: 100vw;
+
+             padding-top: 20vh;
+             background-attachment: fixed;
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
+
+         .mb_parallax_container1 {
+             height: 300px;
+             width: 100vw;
+
+             padding-top: 20vh;
+             background-attachment: fixed;
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
+
+
+
+         #mb_parallax_one {
+             background-image: url(https://i.guim.co.uk/img/media/c34a2ddb7f6c9a8036927126eb9c901465dc52dc/297_1065_4211_2527/master/4211.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a0d0dd51f53fcbfcb462f6cfc98d5dfd);
+         }
+
+         #mb_parallax_one1 {
+             background-image: url(https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/321114_2200-1200x628.jpg);
+         }
+
+         .font {
+
+             color: white;
+         }
+
+         .half {
+            
+             /* background-attachment:fixed ; */
+             /* background-color: rgba(6, 32, 51, .8); */
+             height: auto;
+             width: 100vw;
+             background-repeat: no-repeat;
+             background-size: cover;
+
+
+
+         }
+
+         .name_of_day {
+
+             background-repeat: no-repeat;
+             /* background-attachment: fixed; */
+             background-size: cover;
+
+
+         }
+
+
+
+         [class^="hvr-"] {
+             font-family: 'Roboto', sans-serif;
+         }
+
+         [class^="hvr-"] {
+             margin: .4em;
+             padding: 1em;
+             cursor: grab;
+             border-radius: 15px;
+             background: #3b5999;
+             text-decoration: none;
+             color: rgb(255, 255, 255);
+             /* Prevent highlight colour when element is tapped */
+             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+             /* Smooth fonts */
+             -webkit-font-smoothing: antialiased;
+             -moz-osx-font-smoothing: grayscale;
+         }
+ 
